@@ -1,0 +1,49 @@
+.list {
+  margin: 10px;
+  padding: 0 30px;
+  width: 460px;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ebecf0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  &-item {
+    padding: 5px;
+    margin: 10px 0;
+    width: 380px;
+    min-height: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & span {
+      padding: 0 5px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    &-completed {
+      padding: 4px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 75px;
+      text-align: center;
+    }
+    & .variant2 {
+      background-color: green;
+    }
+    & .variant1 {
+      background-color: #ffbf00;
+    }
+    &-delete {
+      padding: 4px;
+      border: none;
+      border-radius: 3px;
+      background-color: #ff6600;
+      cursor: pointer;
+    }
+  }
+}

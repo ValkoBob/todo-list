@@ -1,0 +1,11 @@
+.search {
+  padding: 3px;
+  margin: 10px;
+}
+
+.searchitem {
+  & label {
+    font-style: italic;
+    font-weight: bold;
+  }
+}
