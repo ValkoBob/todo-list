@@ -1,6 +1,3 @@
-For testing APP without npm, you can show DEMO: https://valkobob.github.io/todo-list/
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
